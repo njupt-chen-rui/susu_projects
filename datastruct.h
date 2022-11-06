@@ -51,10 +51,10 @@ struct KD_tree{
         // mark1 = tmp2;
         // vector<vector<int>> tmp3;
         // mark2 = tmp3;
-        // for(size_t i=0;i<P.size();i++){
-        //     v.push_back(P[i]);
-        //     tab[i]=i;
-        // }
+        for(size_t i=0;i<P.size();i++){
+            v.push_back(P[i]);
+            tab[i]=i;
+        }
     }
     void set_tmp_array(){
         for(size_t i=0;i<P.size();i++){
